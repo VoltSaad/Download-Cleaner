@@ -1,5 +1,4 @@
-DownloadWizard
-DownloadWizard is a Python script designed to automatically organize files in your Downloads folder by sorting them into categorized folders based on file extensions. This tool helps keep your Downloads directory clean and tidy without manual effort.
+Download Cleaner is a Python script designed to automatically organize files in your Downloads folder by sorting them into categorized folders based on file extensions. This tool helps keep your Downloads directory clean and tidy without manual effort.
 
 Features
 Automatic file organization: The script identifies files based on their extensions and moves them into appropriate categories such as:
