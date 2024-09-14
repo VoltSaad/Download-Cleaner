@@ -38,7 +38,5 @@ The script scans your Downloads folder for files and sorts them into appropriate
 By default, the script organizes files into categories like "Images," "Documents," "Videos," "Music," etc. It does not move existing folders, leaving them in place.
 
 Contributing
-Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request. You can also open an issue if you have suggestions or encounter any bugs.
+Contributions are welcome! You can fix this repository, make changes, and submit a pull request. You can also open an issue if you have suggestions or encounter any bugs.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
