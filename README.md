@@ -1,14 +1,44 @@
-# DownloadSorter
+DownloadWizard
+DownloadWizard is a Python script designed to automatically organize files in your Downloads folder by sorting them into categorized folders based on file extensions. This tool helps keep your Downloads directory clean and tidy without manual effort.
 
-DownloadSorter is a Python script designed to help keep your Downloads folder clean and organized. It automatically sorts files into categorized folders (e.g., Images, Documents, Videos) based on file extensions. This makes it easier to manage and access your files, leaving your Downloads directory clutter-free.
+Features
+Automatic file organization: The script identifies files based on their extensions and moves them into appropriate categories such as:
 
-## Features
-- Automatically sorts files into categories such as Images, Documents, Videos, Music, and more.
-- Supports file types including `.jpg`, `.pdf`, `.mp4`, `.docx`, `.zip`, and more.
-- Easily extendable to handle additional file types.
-- Does not move existing folders or handle folder operations.
+Images (e.g., .jpg, .png)
+Documents (e.g., .pdf, .docx)
+Videos (e.g., .mp4, .mkv)
+Music (e.g., .mp3, .wav)
+Compressed files (e.g., .zip, .rar)
+And more!
+Simple to use: Just run the script and watch your Downloads folder get organized automatically.
 
-## Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/DownloadSorter.git
+Customizable: You can easily extend the file_categories dictionary to add more file types or create custom categories.
+
+No folder handling: The tool focuses on files and does not move or organize folders.
+
+Usage:
+Clone the repository:
+   git clone https://github.com/VoltSaad/DownloadWizard.git
+
+Navigate to the project directory:
+   cd DownloadWizard
+   
+Run the script:
+   python download_sorter.py
+   
+* The script will automatically scan your Downloads folder and organize the files into categorized subfolders.
+
+Installation
+Requirements:
+Python 3.x
+No external dependencies (uses built-in Python libraries like os and shutil)
+How it Works
+The script scans your Downloads folder for files and sorts them into appropriate subfolders based on their file extensions. The mapping of file extensions to categories is stored in the file_categories dictionary, which you can customize to include additional file types or create new categories.
+
+By default, the script organizes files into categories like "Images," "Documents," "Videos," "Music," etc. It does not move existing folders, leaving them in place.
+
+Contributing
+Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request. You can also open an issue if you have suggestions or encounter any bugs.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
